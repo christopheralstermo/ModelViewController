@@ -1,0 +1,29 @@
+#enGridBoksMedOrd{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: solid;
+    min-height: 40px;
+}
+
+#enGridBoksMedOrd > div{
+    padding: 5px;
+    border: solid;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.enGridBoksMedOrdOn > :hover {
+    background-color: aqua;
+    cursor: pointer;
+
+}
+.enGridBoksMedOrdOff > :hover {
+    cursor: not-allowed;
+    user-select: none;
+
+}
+
+.group{
+    display: flex;
+}
